@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(4, 0, 255);
+    color: white;
+}
+h1,li{
+    color: rgb(255,255,255);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.grp1{
+    padding:200px;
+}
+ul{
+    list-style-position : inside;
+    /* again i caught with an problem sir */
+    
+      
+}
+a{
+    color: white;
+}
+.list{
+    padding-right: 30px;
+    text-align: right;
+}

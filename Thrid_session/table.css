@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+table{
+   
+    width: 400px;
+    text-align: center;
+    /* for center of the webpage */
+    margin: auto;
+    margin-top: 200px;
+    
+
+}
+table,td,th{
+    border: 3px solid black;
+     /* to crete the borders we have to crete for the entire table and for td,th */
+     border-collapse: collapse;
+     padding: 10 20 10 20;
+     background-color: beige;
+     color: var(--fire-brick);
+}
+div{
+    color: rgb(28, 108, 205) ;
+}

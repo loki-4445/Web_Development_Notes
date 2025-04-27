@@ -1,0 +1,35 @@
+a:hover{
+    color: red;
+
+}
+/* :hover{
+    color: yellowgreen;
+
+} */
+:empty{
+    color: rgb(255, 4, 4);
+    background-color: #5d1515;
+    min-height: 10px;
+}
+p:nth-last-child(1){
+    background-color: rgb(125, 79, 170);
+}
+p:nth-child(2){
+    background-color: rgb(205, 205, 139);
+}
+p:nth-of-type(4){
+    background-color: #00ee0c;
+}
+p:first-letter{
+    font-size: x-large;
+}
+li:nth-child(2n){
+    list-style-type: none;
+    background: #f97474;
+
+}
+/* the selection =>unables specific font while selecting the content */
+p::selection{
+    background-color: rgb(0, 188, 138);
+}
+

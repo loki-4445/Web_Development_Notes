@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+table{
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+table,thead,td,th{
+    border: 3px solid;
+    text-align: center;
+    border-collapse: collapse;
+    padding-left: 40px;
+  padding-right: 40px;
+}
+td{
+  padding-left: 40px;
+  padding-right: 40px;
+}

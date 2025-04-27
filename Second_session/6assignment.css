@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url("https://w0.peakpx.com/wallpaper/883/296/HD-wallpaper-hatake-kakashi-artwork-naruto-characters-manga-sharingan-samurai-portrait-naruto-kakashi-hatake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.Buttons{
+    text-align: center;
+}
+button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(196, 196, 196);
+    width: 10rem;
+    height: 3rem;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    text-shadow: 5px 3px 5px grey;
+    font-size: 200px;
+}
+p{
+    text-align: center;
+    color:white;
+    text-shadow: 5px 3px 3px grey;
+    padding: 0px 0px 20px 0px;
+}
+a{
+    text-align: center;
+    color:white;
+    text-shadow: 5px 3px 5px grey;
+}
+.text{
+    margin: 100px 0px 0px 0px;
+    text-align: center;
+}

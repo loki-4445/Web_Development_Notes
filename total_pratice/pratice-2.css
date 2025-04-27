@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header,.footer{
+    background-color: grey;
+    text-align: center;
+    padding: 30px;
+}
+.emp{
+    margin: 143px;
+}
+

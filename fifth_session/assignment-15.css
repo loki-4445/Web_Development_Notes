@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    padding-top: 4px;
+    /* border: 2px solid; */
+    box-shadow: 2px -1px 2px solid rgb(160, 4, 4);
+}
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.h21{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.h22{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.h33{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.h21,.h22,.h33{
+    text-align: center;
+    box-sizing: border-box;
+    margin: 80px;
+}

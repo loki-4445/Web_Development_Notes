@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="table.css">
+    <link rel="stylesheet" href="../golbal.css">
+</head>
+<body>
+    <!-- normal table creation -->
+    <table>
+<thead>
+    <tr>
+        <th>No</th>
+        <th>Name</th>
+        <th>Work</th>
+        <th>Salary</th>
+    </tr>
+</thead>
+<tbody>
+<tr>
+    <td>1</td>
+    <td>Lalithya</td>
+    <td>Owner</td>
+    <td>$40000</td>
+</tr>
+<tr>
+    <td>2</td>
+    <td>Lokesh</td>
+    <td>Manager</td>
+    <td>$60000</td>
+</tr>
+<tr>
+    <td>3</td>
+    <td>Chaitu</td>
+    <td>Worker</td>
+    <td>$50000</td>
+</tr>
+<tr>
+    <td>4</td>
+    <td>Jagadeesh</td>
+    <td>Office man</td>
+    <td>$70000</td>
+</tr>
+</tbody>
+    </table>
+    <!-- table using row span -->
+    <table>
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">1</td>
+                <td rowspan="3">David</td>
+                <td>Physics</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <!-- <td>1</td>
+                <td>David</td> -->
+                <td>chemistry</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <!-- <td>1</td>
+                <td>David</td>  so to avoid repeation-->
+
+                <td>english</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td rowspan="3">2</td>
+                <td rowspan="3">Lokesh</td>
+                <td>Physics</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <!-- <td>2</td>
+                <td>lokesh</td> -->
+                <td>chemistry</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <!-- <td>2</td>
+                <td>lokesh</td> -->
+                <td>english</td>
+                <td>80</td>
+            </tr>
+            
+        </tbody>
+    </table>
+    <!-- to create coloumn span -->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Expensive</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lalithya</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td>Chaitu</td>
+                <td>300</td>
+            </tr>
+            <!-- <tr>
+                <td>sum</td>
+                <td>500</td>
+            </tr> -->
+            <tr>
+                <td colspan="2">Sum : 500</td>
+            </tr>
+            <!-- col span is used to merge the coloumns -->
+        </tbody>
+
+    </table>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.card{
+    display:flex;
+    justify-content:space-around ;
+}
+
+.card-1{
+    width: 25vw;
+    height: 50vh;
+    margin: 10px;
+    /* background-image: linear-gradient(red,blue); */
+    /* background-image: linear-gradient(to top right,red,blue); */
+    
+    background-image: repeating-linear-gradient(-45deg,red 20%,blue 40%,green 50%);
+}
+.card-2{
+   margin: 10px;
+    width: 25vw;
+    height: 50vh;
+    background-image: radial-gradient(ellipse,red,blue);
+}

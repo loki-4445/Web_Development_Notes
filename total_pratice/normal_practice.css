@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* box-sizing: border-box; */
+
+}
+
+.p1,.p2 p{
+    /* font-family: cursive; */
+    display: inline;
+    float: left;
+    /* padding: 10px;
+    margin: 8px;
+    border: 2px;
+    border: solid; */
+    /* border-color: rgb(82, 16, 204); */
+    /* font-weight: bold; */
+
+}
+.parent{
+    display: inline;
+}
+span{
+    color: rgb(0, 0, 0);
+    background-color: #aaf33d;
+}
+.p1,.p2{
+
+}

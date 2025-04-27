@@ -1,0 +1,12 @@
+body{
+    min-height: 1000px;
+}
+.header{
+    background-color: aquamarine;
+    padding: 20px;
+    position:fixed;
+
+    margin: auto;
+    left: 20px;
+    bottom:0;
+}

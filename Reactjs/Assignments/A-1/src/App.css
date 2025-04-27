@@ -1,0 +1,7 @@
+.body{
+  width: 1475px;
+}
+.pro{
+  display: flex;
+  justify-content: space-around;
+}

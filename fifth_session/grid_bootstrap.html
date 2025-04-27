@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   
+    <title>Document</title>
+</head>
+<body>
+    <!-- each row is divided into 12 columns we want to join those rows into our requirement -->
+    <div class="row">
+        <!-- Let us assume I have 2 elements of p -->
+        <!-- the mai  purpose of this sm or lg or md is for stack view or resposivness -->
+        <div class="col-sm-6 col-md-2 col-lg-7 bg-warning">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos consequuntur possimus aliquam corporis omnis hic ipsa minima libero quibusdam non.</p>
+        </div>
+        <!-- sm-for small -->
+        <!-- md for medium -->
+        <!-- lg for large -->
+        <div class="col-sm-6 col-md-10 col-lg-5 bg-primary">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia voluptatum repellat nesciunt corporis quibusdam dolore unde, non inventore debitis incidunt.</p>
+        </div>
+    </div>
+    <div  class="row">
+        <!-- i had given 3+7=10 out of 12 so the space remains same..kibstead when i give out the range (>12) it auotmaticcaly go to the next row -->
+        <div class="col-sm-3 bg-success"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, facere esse officia eos eligendi ducimus debitis temporibus optio accusantium in?</p></div>
+        <div class="col-sm-7 bg-secondary"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In tempore consectetur hic incidunt perferendis maiores corrupti itaque laboriosam beatae aspernatur quas quibusdam nostrum a unde blanditiis, impedit maxime sint. Ipsam.</p></div>
+    </div>
+    <div  class="row">
+        <!-- i had given 3+10=13 (>12) it auotmaticcaly go to the next row -->
+        <div class="col-md-3 bg-info"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, facere esse officia eos eligendi ducimus debitis temporibus optio accusantium in?</p></div>
+        <div class="col-md-10 bg-warning"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In tempore consectetur hic incidunt perferendis maiores corrupti itaque laboriosam beatae aspernatur quas quibusdam nostrum a unde blanditiis, impedit maxime sint. Ipsam.</p></div>
+    </div>
+</body>
+</html>

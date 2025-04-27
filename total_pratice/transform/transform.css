@@ -1,0 +1,38 @@
+*{
+    background-color: #d2cdcd;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+img{
+    width: 300px;
+    text-align: center;
+    /* transform: translate(-300px,30px); */
+    /* transform: scaleX(0.5); */
+    /* transform: scaleY(2); */
+}
+.cricle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: auto;
+    text-align: center;
+    background-color:#f18c8c;
+    padding: 50px 0px;
+    cursor: pointer;
+    transition: background 1s ease-in, transform 1s  ;
+    animation: scroll 5s linear infinite;
+}
+.cricle:hover{
+    transform: rotate(360deg);
+    background: #b72323;
+}
+@keyframes scroll{
+from{
+    transform: translateX(100%);
+}
+to{
+    transform: translateX(-100%);
+}
+}

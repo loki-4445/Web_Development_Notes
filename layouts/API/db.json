@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": "fc49",
+      "username": "loki",
+      "password": "loki",
+      "email": "viv@email.com"
+    },
+    {
+      "id": "350b",
+      "username": "lali",
+      "password": "lali",
+      "email": "lali@gmail.com"
+    }
+  ]
+}

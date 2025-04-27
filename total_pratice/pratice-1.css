@@ -1,0 +1,29 @@
+h1{
+    color:rgb(126, 78, 80);
+    text-align: center;
+    text-decoration:underline;
+    text-transform: uppercase;
+    text-shadow: -4px -2px 3px rgb(245, 245, 245);
+}
+#paragraph2{
+    color: #C0392B;
+    line-height: 20px;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-family: "Anta", sans-serif;
+
+}
+.paragraph1{
+    color: rgb(220, 8, 174);
+    font-size: xx-large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-weight:bold;
+    font-display: inline;
+    
+    
+}
+body{
+    background-color: rgb(90, 253, 10 );
+    background-image: url(https://images.pexels.com/photos/831079/pexels-photo-831079.jpeg?cs=srgb&dl=pexels-rudy-kirchner-831079.jpg&fm=jpg);
+    background-size: 100%;
+}

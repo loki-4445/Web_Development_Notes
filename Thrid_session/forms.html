@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <h1>Html forms</h1>
+    <form>
+        <!-- for is to whenver i press usrename label it go to directly input felid to enter the username -->
+       <!-- for username -->
+       <div>
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="eg:Lokesh" autocomplete="off" >
+        <!-- placeholder is to tell the user to enter such username -->
+        <!-- autocomplete is oof the auto suggestions -->
+
+    </div>
+        <!-- for password -->
+        <div>
+        <label for="pass">Password</label>
+        <input type="password" id="pass" required minlength="8">
+        <!-- required says that it is must to enter -->
+        <!-- min length is says you have to enter minimum this lenght similarly to the maxlength -->
+    </div>
+    <div>
+        <!-- for different input labels: -->
+        <!-- for number input -->
+        <div>
+        <label for="count">Enter the Count of sums</label>
+        <input type="number"  id="Count">
+    </div>
+        <!-- for date input -->
+        <div>
+        <label for="dob">Enter the date of brith</label>
+        <input type="date"  id="dob">
+    </div>
+        <!-- for email -->
+        <div>
+        <label for="mail">Enter email</label>
+        <input type="email" id="mail" required>
+    </div>
+        <!-- for checkbox -->
+        <!-- used for two types like to check isingle or for multiple choices -->
+        <div>
+       <input type="checkbox"  id="c++">
+        <label for="c++">c++</label>
+        <input type="checkbox"  id="java">
+        <label for="java">Java</label>
+    </div>
+    </div>
+    <!-- for the radio box -->
+    <div>
+        <label >Select your gender :</label>
+        <input type="radio" name="gender" id="ml">
+        <label for="ml">Male</label>
+        <input type="radio" name="gender" id="fl">
+        <label for="fl">Female</label>
+        <!-- her we ahve to use name to be unquie to select the unquie option -->
+
+    </div>
+    <div>
+    <!-- for uploading the file -->
+    <label for="file">Enter the file here</label>
+    <input type="file" id="file">
+    </div>
+    <!--for selection purpose we use selelct  -->
+    <div>
+        <label for="">Enter the state</label>
+        <select name="" id="state">
+            <option value="">Andhra pradesh</option>
+            <option value="">Telegana</option>
+            <option value="">Tamil nadu</option>
+            <!-- options is to provide the options for selections -->
+        </select>
+    </div>
+<div>
+    <!-- for multiline input we use element called textarea -->'
+    <label for="text">Feedback here</label>
+    <textarea name="" id="text" cols="30" rows="10"></textarea>
+</div>
+<div>
+    <!-- submit button to submit our form we use button:sumbit-->
+    <button type="submit">Submit</button>
+</div>
+    </form>
+</body>
+</html>

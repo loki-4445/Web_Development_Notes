@@ -1,0 +1,11 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+}
+body{
+    background-image: url(https://img.freepik.com/free-photo/autumn-leaf-falling-revealing-intricate-leaf-vein-generated-by-ai_188544-9869.jpg?w=1060&t=st=1708704464~exp=1708705064~hmac=53ef11cba3901a1640d085ed78f5b0ef1711da0a86f4dc88aa9c775ed24119d0);
+}
+button{
+    color: white;
+}

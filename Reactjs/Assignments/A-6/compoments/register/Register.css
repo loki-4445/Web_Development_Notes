@@ -1,0 +1,22 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-align: center;
+margin: auto;
+}
+select{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.gen{
+padding-left: 30px;
+}
+.op{
+    padding-left: 30px;
+}
+
+form{
+    height: 400px;
+}
+form input,select{
+    background-color: #dadada;
+}

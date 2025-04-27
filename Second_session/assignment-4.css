@@ -1,0 +1,68 @@
+*{
+ margin: 0px;
+ padding:0px;   
+}
+body{
+    background-color: rgb(213, 202, 128);
+    margin-left:45px;
+}
+.productsheadind{
+    font-family: "Anta", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+.productshead{
+    font-family: "Anta", sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    margin-bottom: 60px;
+}
+img{
+    display: inline-flex;
+    margin-right: 15px;
+    margin-bottom: 10px;
+
+}
+ol,ul{
+    list-style-position: inside;
+    margin-left:35px;
+    font-family: "Montserrat", sans-serif;  
+    font-weight: 450;
+    margin-bottom: 20px;
+}
+.nickdes{
+display: inline; 
+font-size: 1em;
+width: 550px ;
+text-align: left;
+line-height: 1.2em;
+  font-weight: 450;
+
+}
+.h11{
+    display: flex;
+    align-items: start;  
+    font-family: "Montserrat", sans-serif;  
+}
+span.red{
+    color: #b10707;
+}
+ul{
+    
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid rgb(170, 170, 170);                                                        
+}
+a{
+    padding-left: 45px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif; 
+    color:rgb(255, 46, 46);
+}
+.txt{
+    display: inline;
+    color: #C0392B;
+    font-family: "Montserrat", sans-serif; 
+    
+}

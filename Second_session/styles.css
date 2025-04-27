@@ -1,0 +1,21 @@
+.heading1{
+    color: rgb(10, 90, 60,10);
+    text-align: center;
+    /* text-decoration: underline; */
+    text-transform: uppercase;
+text-shadow: 5px -3px rgb(132, 255, 0);
+}
+body{
+    /* to intilze the height of the web */
+    height: 1000px;
+    background-color: antiquewhite;
+    background-image: url(https://wallpapers-clan.com/wp-content/uploads/2023/11/naruto-glowing-eyes-colorful-desktop-wallpaper-cover.jpg);
+    /* here i'm experince 4 pics of backgroun so to stop repeating we use background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    /* to set the background with 100% size */
+    background-size: 100%;
+    /* to set background position we use */
+    background-position: center;
+    /* for not distrubing the background image while scrolling we use */
+    background-attachment: fixed;
+}

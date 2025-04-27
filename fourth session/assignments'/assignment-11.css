@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to right,rgb(0, 108, 92),#70cfff);
+}
+.total{
+    display: grid;
+    height: auto;
+    margin: auto;
+    text-align: left;
+    margin-top: 70px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    width: 1000px;
+    
+}
+.total h2{
+    text-align:center;
+    text-transform: uppercase;
+    padding-bottom: 1px;
+    
+}
+.total h2,p{
+    color: rgb(246, 251, 255);
+    padding: 3px;
+    padding: 10px;
+    
+   
+}
+.total h2{
+    text-align: center;
+    
+}
+a{
+    padding-left: 350px;
+    color: #09ffb9;
+}
+
+.naru{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: rgb(13, 12, 12);
+    
+}
+.saku{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    background-color: rgb(13, 12, 12);
+    padding-top: 70px;
+}
+.sasu{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding-top: 70px;
+    background-color: #3199d5;
+}
+
+.kaka{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    padding-top: 70px;
+    background-color: #09ffb9;
+}
+.lokesh{
+    grid-column: 1/2;
+    grid-row: 2/4;
+    background-color: #50556d;
+    padding-top:70px ;
+    text-align: center;
+}
+.poki{
+    grid-column: 2/4;
+    grid-row:2/3 ;
+    background-color: rgb(13, 12, 12);
+}
+.noki{
+    grid-column: 4/5;
+    grid-row:2/4;
+    background-color: #50556d;
+    padding-top: 70px;
+}
+.koki{
+    grid-column: 2/3;
+    grid-row:3/4;
+    background-color: #3199d5;
+}
+.moki{
+    grid-column: 3/4;
+    grid-row:3/4;
+    background-color: #09ffb9;
+}

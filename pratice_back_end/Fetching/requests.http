@@ -1,0 +1,30 @@
+get http://localhost:4000/users
+
+###
+post http://localhost:4000/users
+
+###
+post http://localhost:4000/users
+Content-Type: application/json
+
+{   "id":4,
+    "name":"Lalill",
+    "class":"2nd Btech"
+}
+
+
+###
+put http://localhost:4000/users
+Content-Type: application/json
+
+{   "id":3,
+    "name":"HIE",
+    "class":"2nd Btech"
+}
+
+
+###
+delete http://localhost:4000/users/2
+
+###
+get http://localhost:4000/users/chaitu

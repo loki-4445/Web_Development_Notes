@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+body p{
+    background-color: #71c13c;
+}
+body h2{
+    background-color: #f59b00;
+}
+@media screen and (max-width:598px){
+    body p{
+        background-color: #5e66ff;
+        width: auto;
+        height: auto;
+    }
+    body h2{
+        background-color: #d6b57c;
+        width: auto;
+        height: auto;
+    }
+    body{
+        width: auto;
+        height: auto ;
+    }
+}
+@media screen and (min-width:599px) and (max-width:700px){
+    body p{
+        background-color: #8affcc;
+        width: auto;
+        height: auto;
+    }
+    body h2{
+        background-color: #df3fdc;
+        width: auto;
+        height: auto;
+    }
+    body{
+        width: 500px;
+        height: auto ;
+    }  
+}
+

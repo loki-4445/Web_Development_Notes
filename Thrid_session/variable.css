@@ -1,0 +1,42 @@
+:root{
+    --white-colour:rgb(29, 5, 216);
+    --blue-colour:#DAA520;
+}
+h1{
+    color:var(--white-colour) ;
+
+}
+
+.p1{
+    color: var(--fire-brick);
+}
+.p2{
+    color: var(--gold-color);
+}
+h2{
+    width: 300px;
+    height: 300px;
+    /* padding: 10px; */
+    border: 10px solid red;
+    box-sizing: border-box;
+}
+/* the total size of the element is 300px */
+h3{
+    width: 300px;
+    height: 300px;
+    /* padding: 10px; */
+    border: 10px solid red;
+    box-sizing: content-box;
+}
+/* the total size is 319 */
+h3{
+    color: var(--gold-color);
+}
+img{
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+    margin: 110px;
+    border: 10px dotted red;
+    box-sizing: border-box;
+}

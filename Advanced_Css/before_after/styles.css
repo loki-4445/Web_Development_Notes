@@ -1,0 +1,25 @@
+p::before{
+   
+    content: url('https://icon2.cleanpng.com/20180423/vgw/kisspng-computer-icons-blog-thepix-5add9cd7695034.8930483315244730474314.jpg');
+    display: inline;
+    color: azure;
+    background-image: url(https://icon2.cleanpng.com/20180423/vgw/kisspng-computer-icons-blog-thepix-5add9cd7695034.8930483315244730474314.jpg);
+
+}
+p::after{
+    background-color: #c77979;
+    content: ' Bye';
+    color: rgb(85, 163, 163);
+}
+button{
+    display: inline-block;
+}
+li::before{
+    content: ' ';
+    list-style-type: none;
+
+    background-image: url(https://icon2.cleanpng.com/20180423/vgw/kisspng-computer-icons-blog-thepix-5add9cd7695034.8930483315244730474314.jpg);
+}
+ul{
+    list-style-type: url(https://icon2.cleanpng.com/20180423/vgw/kisspng-computer-icons-blog-thepix-5add9cd7695034.8930483315244730474314.jpg);
+}
